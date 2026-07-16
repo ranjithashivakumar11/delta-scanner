@@ -169,16 +169,4 @@ print("=" * 50)
 
 while True:
     print("Waiting 5 minutes for next scan...")
-    time.sleep(300)print("-" * 50)
-
-send_telegram(message)
-
-print("=" * 50)
-print("SCAN COMPLETED")
-print("BUY Signals :", buy_count)
-print("SELL Signals :", sell_count)
-print("=" * 50)
-
-while True:
-    print("Waiting 5 minutes for next scan...")
     time.sleep(300)
